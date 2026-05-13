@@ -12,8 +12,11 @@ Each skill encodes a trigger → steps → gotchas → verification workflow for
 # Clone the repo
 git clone https://github.com/richard-parayno/ai-playbooks.git
 
-# Copy skills to your Hermes skills directory
-cp -r skills/* ~/.hermes/skills/
+# Install a specific skill (via skills.sh ecosystem)
+npx skills add richard-parayno/ai-playbooks -s rails_remote_devenv
+
+# Or install all skills from the collection
+npx skills add richard-parayno/ai-playbooks --all
 ```
 
 ## Philosophy
