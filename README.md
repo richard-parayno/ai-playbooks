@@ -1,5 +1,7 @@
 # AI Playbooks
 
+[![skills.sh](https://skills.sh/b/richard-parayno/ai-playbooks)](https://skills.sh/richard-parayno/ai-playbooks)
+
 A personal collection of reusable skills for [Hermes Agent](https://hermes-agent.nousresearch.com/) and other agent harnesses.
 
 Each skill encodes a trigger → steps → gotchas → verification workflow for recurring tasks. Drop them into your Hermes skills directory and they'll load automatically when relevant.
